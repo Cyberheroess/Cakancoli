@@ -12,8 +12,6 @@
 
 **cakancoli** adalah framework pengintaian otomatis yang mampu melakukan pemetaan permukaan serangan terhadap domain target. Terdiri dari 30+ modul modular, framework ini dirancang untuk profesional keamanan siber, red team, bug hunter, dan pentester yang mengutamakan efisiensi dan taktik.
 
-> Dibuat dengan gaya **Ayanokoji Taktis Emosional** oleh **Saldi Ganteng** dari **CyberHeroes** 🧠💀
-
 ---
 
 ## ⚙️ Fitur Utama
