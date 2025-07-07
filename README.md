@@ -42,18 +42,14 @@
 
 ### 1. Clone Repo
 ```bash
-git clone https://github.com/yourname/cakancoli.git
-cd cakancoli
+git clone https://github.com/Cyberheroess/Cakancoli.git
+cd Cakancoli
 ```
 
 2. Install Dependensi
 ```
 pip install -r requirements.txt
 ```
-> 3. Siapkan File Pendukung
-> user_agents.txt → User-Agent acak
-> proxies.txt → Proxy http/https
-> common.txt → Wordlist path + file .js
 
 ---
 
