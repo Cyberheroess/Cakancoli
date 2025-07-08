@@ -1,7 +1,7 @@
 ![17519827867237167702940188620510](https://github.com/user-attachments/assets/c335ebca-ae3f-47d3-9f52-8ffc1424f211)
 
 
-<h1 align="center">🕶️ cakancoli</h1>
+<h1 align="center">🕶️ Croxcore</h1>
 <p align="center"><b>Modular Recon & OSINT Framework - Powered by CyberHeroes</b></p>
 <p align="center">
   <img src="https://img.shields.io/badge/status-active-success?style=flat-square" />
