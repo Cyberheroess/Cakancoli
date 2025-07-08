@@ -13,9 +13,9 @@
 ## 📌 Deskripsi
 
 **cakancoli** adalah framework pengintaian otomatis yang mampu melakukan pemetaan permukaan serangan terhadap domain target. Terdiri dari 30+ modul modular, framework ini dirancang untuk profesional keamanan siber, red team, bug hunter, dan pentester yang mengutamakan efisiensi dan taktik.
-![17519596635564807627467317139534](https://github.com/user-attachments/assets/928559df-e608-4ef5-86bc-a3c2683f5077)
 
 ---
+![17519596635564807627467317139534](https://github.com/user-attachments/assets/905ddf44-23d4-442d-a7d7-4d1a02537480)
 
 ## ⚙️ Fitur Utama
 
