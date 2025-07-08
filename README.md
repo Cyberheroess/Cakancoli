@@ -1,4 +1,5 @@
-![Deskripsi Gambar](https://i.ibb.co/PvDrZ2Mc/ecfb7f5f-dfa7-4e28-9b3b-092da3fc5375.png)
+![17519827867237167702940188620510](https://github.com/user-attachments/assets/c335ebca-ae3f-47d3-9f52-8ffc1424f211)
+
 
 <h1 align="center">🕶️ cakancoli</h1>
 <p align="center"><b>Modular Recon & OSINT Framework - Powered by CyberHeroes</b></p>
@@ -12,7 +13,7 @@
 
 ## 📌 Deskripsi
 
-**cakancoli** adalah framework pengintaian otomatis yang mampu melakukan pemetaan permukaan serangan terhadap domain target. Terdiri dari 30+ modul modular, framework ini dirancang untuk profesional keamanan siber, red team, bug hunter, dan pentester yang mengutamakan efisiensi dan taktik.
+**Croxcore** adalah framework pengintaian otomatis yang mampu melakukan pemetaan permukaan serangan terhadap domain target. Terdiri dari 30+ modul modular, framework ini dirancang untuk profesional keamanan siber, red team, bug hunter, dan pentester yang mengutamakan efisiensi dan taktik.
 
 ---
 ![17519827356427946987839109412483](https://github.com/user-attachments/assets/f0826236-132e-4d0b-9c25-0658eb6a8659)
@@ -46,8 +47,8 @@
 
 ### 1. Clone Repo
 ```bash
-git clone https://github.com/Cyberheroess/Cakancoli.git
-cd Cakancoli
+git clone https://github.com/Cyberheroess/Croxcore.git
+cd Croxcore
 ```
 
 2. Install Dependensi
