@@ -2619,6 +2619,16 @@ class siAutoExploitStarter:
             print(f"{M}[!] siAutoExploitStarter: Error utama selama testing - {e}{RESET}")
 
 async def main(domain):
+    from collections.abc import MutableMapping
+
+    def convert_keys_to_str(obj):
+        if isinstance(obj, dict):
+            return {str(k): convert_keys_to_str(v) for k, v in obj.items()}
+        elif isinstance(obj, list):
+            return [convert_keys_to_str(i) for i in obj]
+        else:
+            return obj
+
     modul = [
         siWhoisPasif(), siShodanKasian(), siDNSZoneBomb(), siSubdomainHunter(), siCorsKocak(),
         siWafDetektor(), siCDNHeadHunter(), siCmsNinja(), siPortManja(), siTlsSantuy(),
@@ -2629,7 +2639,7 @@ async def main(domain):
         siEmailPatternCrafter(), siGraphBuilder(), siAutoExploitStarter()
     ]
 
-    threads = []  
+    threads = []
 
     for m in modul:
         t = threading.Thread(target=m.jalan, args=(domain,))
@@ -2642,14 +2652,18 @@ async def main(domain):
     json_path = f"laporan_{domain}.json"
     txt_path = f"laporan_{domain}.txt"
 
-    with open(json_path, "w") as f:
-        json.dump(LOGS if LOGS else [{"info": "Tidak ada hasil ditemukan"}], f, indent=4)
+    sanitized_logs = convert_keys_to_str(LOGS if LOGS else [{"info": "Tidak ada hasil ditemukan"}])
 
+    # Simpan ke JSON
+    with open(json_path, "w") as f:
+        json.dump(sanitized_logs, f, indent=4)
+
+    # Simpan ke TXT
     with open(txt_path, "w") as f:
-        for l in LOGS if LOGS else [{"info": "Tidak ada hasil ditemukan"}]:
+        for l in sanitized_logs:
             f.write(json.dumps(l) + "\n")
 
-    print(f"[✓] Laporan berhasil disimpan: {json_path} dan {txt_path}")
+    print(f"{H}[✓] Laporan berhasil disimpan: {json_path} dan {txt_path}{RESET}")
 
 
 if __name__ == "__main__":
