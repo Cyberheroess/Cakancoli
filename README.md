@@ -17,6 +17,7 @@
 
 ---
 ![17519827356427946987839109412483](https://github.com/user-attachments/assets/f0826236-132e-4d0b-9c25-0658eb6a8659)
+![17520601942952664523968279790040](https://github.com/user-attachments/assets/a57afbc0-cc1c-4b2b-8d87-2599dd7d763b)
 
 
 ## ⚙️ Fitur Utama
